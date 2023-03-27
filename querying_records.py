@@ -10,6 +10,9 @@ if __name__=="__main__":
     print('All the Records For Loop: ')
     for records in information.find({}):
         print(records)
+    print('Specific Record: ')
+    for records in information.find({'lastname':'Jacob'}):
+        print(records)
     
 
 
